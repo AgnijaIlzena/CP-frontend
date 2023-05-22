@@ -1,0 +1,70 @@
+:root {
+  --green: #32c481;
+  --red-btn: #ff5154;
+  --red-btn-hover: #cc4043;
+  --white: #ffffff;
+  --grey: #d2d7df;
+  --black-text: #353535;
+  --font: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: var(--font);
+  /* display: flex; */
+}
+
+.navigation {
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  padding: 30px 0 50px 0;
+}
+
+.continentList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.continentCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid var(--grey);
+  text-align: center;
+}
+
+.countryContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+
+}
+
+.countryCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border: 1px solid var(--grey);
+  text-align: center;
+}
